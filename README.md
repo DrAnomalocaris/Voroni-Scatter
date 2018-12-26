@@ -21,3 +21,6 @@ iris.plot.scatter(	x='sepal_length',
 
 plt.show() # shows plot in the xserver
 ```
+![voroni example](/voroni.png)
+The standard scatter plot provides similar information to the Voronoi plot, but the Voronoi plot more clearly highlights the surface gradient in petal length occurring with septal length (gradient in the bottom right) and also clearly marks the border between low petal length and the rest of the values (blue region in the top left).
+Perhaps a frivolous benefit of using the Voronoi plot is that it is more aesthetically pleasing and fully removes the negative space of a plot giving visual information in a much more stark fashion.
